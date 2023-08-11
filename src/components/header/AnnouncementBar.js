@@ -5,7 +5,7 @@ import "./AnnouncementBar.css";
 export default function AnnouncementBar() {
   return (
     <div>
-      <Row className="justify-content-center">
+      <Row className="justify-content-center mainRowAnnounce">
         <Col lg={10} className="announcementCol">
           <div className="badgeDiv">Announcement</div>
           <p className="announceText">

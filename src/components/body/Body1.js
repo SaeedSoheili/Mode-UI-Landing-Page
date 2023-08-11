@@ -7,7 +7,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 export default function Body1() {
   return (
-    <Row className="mainRow">
+    <Row className="mainRowBody1">
       <Col lg={12}>
         <h2>Seamless experience</h2>
         <h1>
