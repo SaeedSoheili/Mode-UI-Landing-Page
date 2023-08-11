@@ -15,7 +15,7 @@ export default function NavBar() {
   ];
 
   return (
-    <div>
+    <>
       <Row className="navBarRow">
         <Col lg={2} className="navbarLogo">
           Mode UI
@@ -32,6 +32,6 @@ export default function NavBar() {
           </Button>
         </Col>
       </Row>
-    </div>
+    </>
   );
 }

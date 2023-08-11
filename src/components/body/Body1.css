@@ -1,0 +1,51 @@
+.mainRow {
+  height: 532px;
+  /* background-color: antiquewhite; */
+  position: relative;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #582066;
+  margin-top: 70px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  color: #5a6475;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #582066;
+  margin: 20px auto;
+  display: block;
+  font-size: 20px;
+  height: 50px;
+}
+
+.arrowIcon {
+  margin-left: 5px;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+img {
+  z-index: -1;
+  position: absolute;
+  width: 610px;
+  height: 400px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
