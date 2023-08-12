@@ -1,0 +1,33 @@
+.row-main-body4 {
+  height: 900px;
+}
+
+.title-body4 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.sub-title-body4 {
+  font-size: 18px;
+  text-align: center;
+  color: #5a6475;
+}
+
+.span-body4 {
+  color: #582066;
+  text-align: center;
+  display: block;
+}
+
+.main-div-body4 {
+  height: 490px;
+  width: 1216px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-body4 {
+  width: 592px;
+  height: 490px;
+}
