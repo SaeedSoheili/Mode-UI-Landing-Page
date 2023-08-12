@@ -1,0 +1,51 @@
+.row-main-body6 {
+  height: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-main-body6 {
+  height: 424px;
+}
+
+.img-body6 {
+  margin: 0 auto;
+  display: block;
+  height: 50px;
+}
+
+.title-body6 {
+  font-size: 32px;
+  display: block;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-img-body6 {
+  height: 64px;
+  display: block;
+  margin: 35px auto;
+  margin-bottom: 10px;
+}
+
+.profile-name-body6 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.profile-job-body6 {
+  color: #5a6475;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.profile-rating-body6 {
+  height: 15px;
+  display: block;
+  margin: 0 auto;
+}
