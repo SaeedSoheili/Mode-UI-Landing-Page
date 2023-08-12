@@ -1,0 +1,17 @@
+.body2-mainRow {
+  background-color: antiquewhite;
+  height: 232px;
+  align-items: center;
+}
+
+.body2-mainCol {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-body2 {
+  margin: 15px;
+  height: 40px;
+}

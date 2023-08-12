@@ -4,26 +4,26 @@
   position: relative;
 }
 
-h2 {
+.h2-body1 {
   font-size: 18px;
   text-align: center;
   color: #582066;
   margin-top: 70px;
 }
 
-h1 {
+.h1-body1 {
   font-size: 60px;
   text-align: center;
 }
 
-h3 {
+.h3-body1 {
   font-size: 18px;
   text-align: center;
   color: #5a6475;
   margin-top: 20px;
 }
 
-.button {
+.button-body1 {
   background-color: #582066;
   margin: 20px auto;
   display: block;
@@ -31,16 +31,16 @@ h3 {
   height: 50px;
 }
 
-.arrowIcon {
+.arrowIcon-body1 {
   margin-left: 5px;
 }
 
-p {
+.p-body1 {
   text-align: center;
   margin-top: 10px;
 }
 
-img {
+.img-body1 {
   z-index: -1;
   position: absolute;
   width: 610px;
