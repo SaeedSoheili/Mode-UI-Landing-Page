@@ -49,3 +49,58 @@
   display: block;
   margin: 0 auto;
 }
+
+/* For screen size less than 768px */
+@media screen and (max-width: 768px) {
+  .row-main-body6 {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .col-main-body6 {
+    height: 424px;
+  }
+
+  .img-body6 {
+    margin: 0 auto;
+    display: block;
+    height: 30px;
+  }
+
+  .title-body6 {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .profile-img-body6 {
+    height: 40px;
+    display: block;
+    margin: 35px auto;
+    margin-bottom: 10px;
+  }
+
+  .profile-name-body6 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .profile-job-body6 {
+    color: #5a6475;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .profile-rating-body6 {
+    height: 12px;
+    display: block;
+    margin: 0 auto;
+  }
+}

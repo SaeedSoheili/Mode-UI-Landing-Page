@@ -23,3 +23,36 @@
   margin: -10px auto;
   color: #5a6475;
 }
+
+/* For screen size less than 768px */
+@media screen and (max-width: 768px) {
+  .row-main-footer1 {
+    height: 250px;
+    border-top: 1px solid #f1f1f2;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* background-color: red; */
+  }
+
+  .col-main-footer1 {
+    width: 80%;
+    height: 150px;
+    border-bottom: 1px solid #f1f1f2;
+    margin-top: 25px;
+  }
+
+  .title-footer1 {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .text-footer1 {
+    text-align: center;
+    max-width: 470px;
+    margin: -10px auto;
+    color: #5a6475;
+    font-size: 13px;
+  }
+}

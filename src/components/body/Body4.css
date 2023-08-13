@@ -53,3 +53,41 @@
     height: 700px;
   }
 }
+
+/* For screen size less than 768px */
+@media screen and (max-width: 768px) {
+  .main-div-body4 {
+    height: 300px;
+    width: 100%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img-body4 {
+    /* width: 592px; */
+    width: 48.6%;
+    height: 150px;
+  }
+  .row-main-body4 {
+    height: 400px;
+  }
+
+  .title-body4 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .sub-title-body4 {
+    font-size: 15px;
+    text-align: center;
+    color: #5a6475;
+  }
+
+  .span-body4 {
+    color: #582066;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+  }
+}

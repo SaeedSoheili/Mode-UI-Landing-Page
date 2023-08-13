@@ -86,3 +86,62 @@
     width: 40px !important;
   }
 }
+
+/* For screen size less than 768px */
+@media screen and (max-width: 768px) {
+  .navbarLogo {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 0px;
+    margin-top: 5px;
+  }
+
+  .loginButton {
+    background-color: #eeefef;
+    color: #5a6475;
+    border: none;
+    width: 103px;
+    height: 36px;
+    display: block;
+    text-align: left;
+    padding-right: 40px;
+  }
+
+  .loginIcon {
+    margin-left: 5px;
+    position: absolute;
+  }
+
+  .navBarItems {
+    display: none;
+  }
+
+  .navBarRow {
+    height: 80px;
+    padding-top: 15px;
+    border-top: 1px solid #e6e7e9;
+    border-bottom: 1px solid #e6e7e9;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .navBarMenuCol {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+  }
+
+  .navBarLoginButtonCol {
+    display: flex;
+    align-items: start;
+    padding-left: 50px;
+    position: relative;
+  }
+
+  .navBarMenuIcon {
+    margin-top: 4%;
+    height: 40px !important;
+    width: 40px !important;
+  }
+}

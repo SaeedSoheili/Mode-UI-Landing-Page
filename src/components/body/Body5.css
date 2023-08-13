@@ -15,12 +15,8 @@
 }
 
 .item-div-body5 {
-  /* margin-left: 44px; */
-  /* margin-right: 44px; */
   display: block;
   position: relative;
-  /* height: 188px; */
-  /* width: 280px; */
 }
 .title-body5 {
   font-size: 48px;
@@ -54,6 +50,48 @@
   .about-body5 {
     color: #5a6475;
     font-size: 15px;
+    max-width: 160px;
+    margin: -10px auto;
+  }
+}
+
+/* For screen size less than 768px */
+@media screen and (max-width: 768px) {
+  .row-main-body5 {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-main-body5 {
+    height: 188px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .item-div-body5 {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .title-body5 {
+    font-size: 20px;
+    color: #582066;
+    font-weight: 500;
+  }
+  .sub-body5 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: -20px;
+  }
+  .about-body5 {
+    color: #5a6475;
+    font-size: 12px;
     max-width: 160px;
     margin: -10px auto;
   }

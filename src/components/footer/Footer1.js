@@ -5,7 +5,7 @@ import "./Footer1.css";
 export default function Footer1() {
   return (
     <Row className="row-main-footer1">
-      <Col className="col-main-footer1" lg={10}>
+      <Col className="col-main-footer1" xs={12} sm={12} md={12} lg={10}>
         <p className="title-footer1">Mode UI</p>
         <p className="text-footer1">
           Mode UI is a comprehensive design system that empowers designers and

@@ -8,7 +8,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 export default function Body1() {
   return (
     <Row className="mainRowBody1">
-      <Col lg={12}>
+      <Col xs={12} sm={12} md={12} lg={12}>
         <h2 className="h2-body1">Seamless experience</h2>
         <h1 className="h1-body1">
           Unleashing the Next <br /> Generation of Card <br />

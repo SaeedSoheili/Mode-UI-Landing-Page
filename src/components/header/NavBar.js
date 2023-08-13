@@ -18,7 +18,7 @@ export default function NavBar() {
   return (
     <>
       <Row className="navBarRow">
-        <Col md={8} lg={2} className="navbarLogo">
+        <Col xs={4} sm={4} md={8} lg={2} className="navbarLogo">
           Mode UI
         </Col>
 
@@ -28,14 +28,14 @@ export default function NavBar() {
           ))}
         </Col>
 
-        <Col md={2} lg={2} className="navBarLoginButtonCol">
+        <Col xs={6} sm={4} md={2} lg={2} className="navBarLoginButtonCol">
           <Button className="loginButton">
             Login
             <LoginIcon className="loginIcon"></LoginIcon>
           </Button>
         </Col>
 
-        <Col md={2} className="navBarMenuCol">
+        <Col xs={2} sm={4} md={2} className="navBarMenuCol">
           <MenuIcon className="navBarMenuIcon" />
         </Col>
       </Row>

@@ -6,7 +6,7 @@ export default function AnnouncementBar() {
   return (
     <div>
       <Row className="justify-content-center mainRowAnnounce">
-        <Col lg={10} className="announcementCol">
+        <Col sm={10} md={10} lg={10} className="announcementCol">
           <div className="badgeDiv">Announcement</div>
           <p className="announceText">
             We are happy to announce that we raise $2 Million in Seed Funding

@@ -28,3 +28,40 @@
   text-decoration: none;
   color: inherit;
 }
+
+/* For screen size less than 768px */
+@media screen and (max-width: 768px) {
+  .navbar-footer2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+
+  .category-footer2 {
+    flex: 1;
+    /* text-align: center; */
+    margin-bottom: 30px;
+  }
+
+  .h3-footer2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .ul-footer2 {
+    list-style: none;
+    padding: 0;
+  }
+
+  .li-footer2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .link-footer2 {
+    text-decoration: none;
+    color: inherit;
+  }
+}

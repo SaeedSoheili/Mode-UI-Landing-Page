@@ -36,3 +36,25 @@
     display: block;
   }
 }
+
+/* For screen size less than 768px */
+@media screen and (max-width: 768px) {
+  .body2-mainRow {
+    height: 150px;
+  }
+
+  .body2-mainCol {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .img-body2 {
+    margin: 5px;
+    width: 77px;
+    height: 27px;
+    display: block;
+  }
+}

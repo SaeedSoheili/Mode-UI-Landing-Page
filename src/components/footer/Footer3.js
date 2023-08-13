@@ -14,7 +14,7 @@ let socials = [
 export default function Footer3() {
   return (
     <Row className="row-main-footer3">
-      <Col className="row-main-footer3">
+      <Col xs={12} sm={12} md={12} lg={12} className="row-main-footer3">
         <div className="div-footer3">
           {socials.map((social, index) => {
             const Icon = social.icon;
