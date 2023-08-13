@@ -16,8 +16,7 @@ export default function Body1() {
         </h1>
         <h3 className="h3-body1">
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et <br /> dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
         </h3>
         <Button className="button-body1">
           Unlock your Card

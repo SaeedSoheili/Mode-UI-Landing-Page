@@ -1,6 +1,5 @@
 .mainRowBody1 {
   height: 532px;
-  /* background-color: antiquewhite; */
   position: relative;
 }
 
@@ -20,7 +19,8 @@
   font-size: 18px;
   text-align: center;
   color: #5a6475;
-  margin-top: 20px;
+  margin: 20px auto;
+  max-width: 650px;
 }
 
 .button-body1 {
@@ -48,4 +48,11 @@
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* For screen size less than 992px */
+@media screen and (max-width: 992px) {
+  .h3-body1 {
+    max-width: 550px;
+  }
 }

@@ -28,7 +28,7 @@ let items = [
 export default function Body5() {
   return (
     <Row className="row-main-body5">
-      <Col lg={12} className="col-main-body5">
+      <Col md={12} lg={12} className="col-main-body5">
         {items.map((item) => (
           <div className="item-div-body5">
             <p className="title-body5">{item.title}</p>

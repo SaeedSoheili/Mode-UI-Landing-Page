@@ -3,6 +3,7 @@ import { Col, Row, Button } from "react-bootstrap";
 import "./NavBar.css";
 import LoginIcon from "@mui/icons-material/Login";
 import NavBarMenus from "./NavBarMenus";
+import MenuIcon from "@mui/icons-material/Menu";
 
 export default function NavBar() {
   let menuItems = [
@@ -17,19 +18,25 @@ export default function NavBar() {
   return (
     <>
       <Row className="navBarRow">
-        <Col lg={2} className="navbarLogo">
+        <Col md={8} lg={2} className="navbarLogo">
           Mode UI
         </Col>
+
         <Col lg={8} className="navBarItems">
           {menuItems.map((item) => (
             <NavBarMenus title={item.name} icon={item.icon} />
           ))}
         </Col>
-        <Col lg={2}>
+
+        <Col md={2} lg={2} className="navBarLoginButtonCol">
           <Button className="loginButton">
             Login
             <LoginIcon className="loginIcon"></LoginIcon>
           </Button>
+        </Col>
+
+        <Col md={2} className="navBarMenuCol">
+          <MenuIcon className="navBarMenuIcon" />
         </Col>
       </Row>
     </>

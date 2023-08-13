@@ -6,7 +6,7 @@ import "./Body4.css";
 export default function Body4() {
   return (
     <Row className="row-main-body4">
-      <Col className="col-main-body4">
+      <Col md={12} lg={12} className="col-main-body4">
         <h2 className="title-body4">
           Elevating Card Programs with
           <br />

@@ -38,3 +38,23 @@
   max-width: 240px;
   margin: -10px auto;
 }
+
+/* For screen size less than 992px */
+@media screen and (max-width: 992px) {
+  .title-body5 {
+    font-size: 30px;
+    color: #582066;
+    font-weight: 500;
+  }
+  .sub-body5 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -10px;
+  }
+  .about-body5 {
+    color: #5a6475;
+    font-size: 15px;
+    max-width: 160px;
+    margin: -10px auto;
+  }
+}

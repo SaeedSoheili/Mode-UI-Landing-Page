@@ -30,7 +30,7 @@ let items = [
 export default function Body3() {
   return (
     <Row className="main-row-body3">
-      <Col className="main-col-body3" lg={12}>
+      <Col className="main-col-body3" md={12} lg={12}>
         <h2 className="title-body3">
           Elevating Card Programs with
           <br />

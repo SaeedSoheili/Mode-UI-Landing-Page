@@ -16,7 +16,7 @@ let logoList = [
 export default function Body2() {
   return (
     <Row className="body2-mainRow">
-      <Col lg={12} className="body2-mainCol">
+      <Col md={12} lg={12} className="body2-mainCol">
         {logoList.map((logo) => (
           <img className="img-body2" src={logo.src} alt="Logo" />
         ))}

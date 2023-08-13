@@ -8,7 +8,7 @@ import HeadphonesIcon from "@mui/icons-material/Headphones";
 export default function Body7() {
   return (
     <Row className="row-main-body7">
-      <Col>
+      <Col md={12} lg={12}>
         <p className="title-body7">
           Unlock Limitless Possibilities with Our New Card Solutions
         </p>

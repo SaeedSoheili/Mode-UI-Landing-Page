@@ -68,3 +68,22 @@
   margin: 0 auto;
   color: #5a6475;
 }
+
+/* For screen size less than 992px */
+@media screen and (max-width: 992px) {
+  .item-name-body3 {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+    max-width: 170px;
+  }
+
+  .item-about-body3 {
+    text-align: center;
+    font-size: 15px;
+    max-width: 170px;
+    display: block;
+    margin: 0 auto;
+    color: #5a6475;
+  }
+}

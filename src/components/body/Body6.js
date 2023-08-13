@@ -5,7 +5,7 @@ import "./Body6.css";
 export default function Body6() {
   return (
     <Row className="row-main-body6">
-      <Col lg={12} className="col-main-body6">
+      <Col md={12} lg={12} className="col-main-body6">
         <img src="./Body2-Logo/body2-logo4.png" className="img-body6" />
         <p className="title-body6">
           I had the pleasure of experiencing the next generation of card

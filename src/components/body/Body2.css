@@ -14,3 +14,25 @@
   margin: 15px;
   height: 40px;
 }
+
+/* For screen size less than 992px */
+@media screen and (max-width: 992px) {
+  .body2-mainRow {
+    height: 232px;
+    align-items: center;
+  }
+
+  .body2-mainCol {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .img-body2 {
+    margin: 15px;
+    height: 40px;
+    display: block;
+  }
+}
