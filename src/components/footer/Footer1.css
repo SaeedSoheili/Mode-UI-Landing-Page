@@ -1,0 +1,25 @@
+.row-main-footer1 {
+  height: 250px;
+  border-top: 1px solid #f1f1f2;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.col-main-footer1 {
+  height: 188px;
+  border-bottom: 1px solid #f1f1f2;
+}
+
+.title-footer1 {
+  font-weight: bolder;
+  font-size: 27px;
+  text-align: center;
+}
+
+.text-footer1 {
+  text-align: center;
+  max-width: 470px;
+  margin: -10px auto;
+  color: #5a6475;
+}
