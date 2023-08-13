@@ -88,8 +88,8 @@
   }
 }
 
-/* For screen size less than 768px */
-@media screen and (max-width: 768px) {
+/* For screen size less than 767px */
+@media screen and (max-width: 767px) {
   .item-body3 {
     align-items: center;
     justify-content: center;

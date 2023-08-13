@@ -25,8 +25,8 @@
   height: 30px;
 }
 
-/* For screen size less than 768px */
-@media screen and (max-width: 768px) {
+/* For screen size less than 767px */
+@media screen and (max-width: 767px) {
   .mainRowAnnounce {
     height: 50px;
   }

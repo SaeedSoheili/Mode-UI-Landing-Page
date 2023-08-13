@@ -57,8 +57,8 @@
   }
 }
 
-/* For screen size less than 768px */
-@media screen and (max-width: 768px) {
+/* For screen size less than 767px */
+@media screen and (max-width: 767px) {
   .h2-body1 {
     font-size: 18px;
     text-align: center;
@@ -90,7 +90,7 @@
     position: absolute;
     width: 340px;
     height: 250px;
-    top: 28%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
